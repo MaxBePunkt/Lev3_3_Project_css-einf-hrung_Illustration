@@ -56,23 +56,22 @@ nav a {
 */
 h2 {
     font-family: 'Merriweather', serif;
-    font-size: 56px;
-    margin: 5% 0 0 0;
+    font-size: 60px;
     width: 50%;
-    font-weight: normal;
+    font-weight: bold;
 }
 header section {
     padding-left: 5vw;
 }
 header section div {
     background: url("../img/illustration1.gif") right/contain no-repeat;
-    padding: 5% 0 10% 0;
+    padding: 10% 0 15% 0;
 }
 section p {
     font-size: 25px;
-    line-height: 4vh;
-    width: 50%;
-    margin: 1% 0 2% 0;
+    line-height: 40px;
+    width: 48%;
+    margin: 2% 0 3% 0;
 }
 /* ################# HEADER BUTTONS ################# */
 header section div a {
@@ -95,7 +94,7 @@ header section div a:first-of-type {
 */
 /* ################# MAIN 1. SECTION ################# */
 main section {
-    margin: 10% auto;
+    margin: 15% auto;
     text-align: center;
 }
 main section:first-of-type {
@@ -106,7 +105,8 @@ main section h2 {
 }
 main section p {
     width: 100%;
-    margin: 1% 0 2% 0;
+    margin: 4% 0 2% 0;
+    line-height: 40px;
 }
 main section:nth-of-type(1) article {
     margin: 10% 0;
@@ -117,12 +117,13 @@ main section article div {
     display: inline-block;
     margin: 0 2%;
 }
-main section article  img {
+main section article img {
     width: 45%;
 }
 main section:nth-of-type(1) article:first-of-type {
     background: url("../img/illustration2.png") left/contain no-repeat;
     text-align: right;
+    padding: 10% 0 10% 0px;
 }
 main section:nth-of-type(1) article:first-of-type div {
     text-align: left;
@@ -130,16 +131,15 @@ main section:nth-of-type(1) article:first-of-type div {
 main section:nth-of-type(1) article:last-of-type {
     background: url("../img/illustration3.png") right/contain no-repeat;
     text-align: left;
+    padding: 10% 0 10% 0px;
+
 }
 main section:nth-of-type(1) article:last-of-type div {
     text-align: left;
 }
 /* ################# MAIN 2. SECTION ################# */
-main section:nth-of-type(2) article {
-    
-}
 main section:nth-of-type(2) p {
-    width: 80%;
+    width: 70%;
     margin: 2% auto;
 }
 main section:nth-of-type(2) article img {
@@ -151,7 +151,7 @@ main section:nth-of-type(2) article img:hover {
 }
 /* ################# MAIN 3. SECTION ################# */
 main section:nth-of-type(3) p {
-    width: 65%;
+    width: 58%;
     margin: 2% auto;
 }
 main section:nth-of-type(3) article img{
@@ -169,14 +169,15 @@ footer section {
     text-align: center;
 }
 footer section h2{
-    margin: 0 auto;
+    margin: 1% auto;
 }
 footer section p{
-    margin: 2% auto;
+    width: 59%;
+    margin: 0 auto;
 }
 footer section div {
     width: 30%;
-    margin: 0 auto;
+    margin: 5% auto;
     border-radius: 10px;
     background: #F5FBFE;
 }
@@ -215,16 +216,20 @@ footer section div a {
 footer article {
     margin: 10% auto 5% auto;
 }
+footer article h2 {
+    width: 100%;
+    margin-bottom: 5%;
+}
 footer article p {
     opacity: 0.5;
-    font-size: 20px;
-    margin: 1% auto;
+    font-size: 15px;
 }
-
 footer article a {
     text-decoration: none;
     color: #202020;
     font-weight: bold;
+    margin: 10px 0;
+    display: inline-block;
 }
 footer article ul {
     list-style: none;

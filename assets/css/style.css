@@ -1,0 +1,150 @@
+/* 
+#########################################
+        GENERAL
+#########################################
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+/* 
+Farbe
+#202020
+#24bff2
+#fff
+#F5FBFE
+
+Farbe social media
+#3b5998
+#fcaf45
+#55acee
+#c4302b
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+    color: #202020;
+}
+/* 
+#########################################
+        NAV
+#########################################
+*/
+nav {
+    text-align: right;
+    padding-right: 2vw;
+}
+nav a {
+    text-decoration: none;
+    color: #202020;
+    padding: 3vh 1vw;
+    display: inline-block;
+}
+/* 
+#########################################
+        HEADER
+#########################################
+*/
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 56px;
+    margin: 5% 0 0 0;
+    width: 50%;
+    font-weight: normal;
+}
+header section {
+    padding-left: 5vw;
+}
+header section div {
+    background: url("../img/illustration1.gif") right/contain no-repeat;
+    padding: 5% 0 10% 0;
+}
+section p {
+    font-size: 25px;
+    line-height: 4vh;
+    width: 50%;
+    margin: 1% 0 2% 0;
+}
+/* ################# HEADER BUTTONS ################# */
+header section div a {
+    color: #202020;
+    font-size: 20px;
+    border-radius:5px;
+    padding: 1.5% 2%;
+    margin-right: 0.5vw;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px #cecece;
+}
+header section div a:first-of-type {
+    color: #fff;
+    background: #202020;
+}
+/* 
+#########################################
+        MAIN
+#########################################
+*/
+/* ################# MAIN FIRST SECTION ################# */
+main section {
+    width: 90%;
+    margin: 20% auto;
+    text-align: center;
+}
+main section h2 {
+    width: 100%;
+}
+main section p {
+    width: 100%;
+    margin: 1% 0 2% 0;
+}
+main section article {
+    margin: 10% 0;
+    padding: 5% 0;
+}
+main section article div {
+    width: 45%;
+    display: inline-block;
+    margin: 0 2%;
+}
+main section article  img {
+    width: 45%;
+}
+
+main section article:first-of-type {
+    background: url("../img/illustration2.png") left/contain no-repeat;
+    text-align: right;
+}
+main section article:first-of-type div {
+    text-align: left;
+}
+main section article:last-of-type {
+    background: url("../img/illustration3.png") right/contain no-repeat;
+    text-align: left;
+}
+main section article:last-of-type div {
+    text-align: left;
+}
+
+
+/* ################# MAIN 2. SECTION ################# */
+main section:nth-of-type(2) {
+    text-align: center;  
+}
+main section:nth-of-type(2) p {
+    width: 80%;
+    margin: 2% auto;
+}
+
+
+/* 
+#########################################
+        FOOTER
+#########################################
+*/

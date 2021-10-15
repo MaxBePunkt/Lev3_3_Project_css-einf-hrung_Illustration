@@ -43,6 +43,8 @@ nav {
 }
 nav a {
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
     color: #202020;
     padding: 3vh 1vw;
     display: inline-block;
@@ -93,7 +95,7 @@ header section div a:first-of-type {
 */
 /* ################# MAIN 1. SECTION ################# */
 main section {
-    margin: 20% auto;
+    margin: 10% auto;
     text-align: center;
 }
 main section:first-of-type {
@@ -147,7 +149,6 @@ main section:nth-of-type(2) article img {
 main section:nth-of-type(2) article img:hover {
     box-shadow: 1px 1px 5px #cecece;
 }
-
 /* ################# MAIN 3. SECTION ################# */
 main section:nth-of-type(3) p {
     width: 65%;
@@ -159,9 +160,95 @@ main section:nth-of-type(3) article img{
 main section:nth-of-type(3) article img:hover{
     box-shadow: 1px 1px 5px #cecece;
 }
-
 /* 
 #########################################
         FOOTER
 #########################################
 */
+footer section {
+    text-align: center;
+}
+footer section h2{
+    margin: 0 auto;
+}
+footer section p{
+    margin: 2% auto;
+}
+footer section div {
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #F5FBFE;
+}
+h3 {
+    font-size: 30px;
+    margin-top: 15%;
+    display: inline-block;
+}
+footer section div p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0% auto;
+    width: 100%;
+}
+footer section div p:nth-of-type(1) {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 20% auto;
+}
+footer section div p:nth-of-type(2) {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15% auto 5% auto;
+    opacity: 0.5;
+}
+footer section div a {
+    background: #24bff2;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 5% 15%;
+    margin: 8% auto;
+    border-radius: 10px;
+    display: inline-block;
+}
+footer article {
+    margin: 10% auto 5% auto;
+}
+footer article p {
+    opacity: 0.5;
+    font-size: 20px;
+    margin: 1% auto;
+}
+
+footer article a {
+    text-decoration: none;
+    color: #202020;
+    font-weight: bold;
+}
+footer article ul {
+    list-style: none;
+}
+footer article ul li {
+    display: inline-block;
+}
+footer article ul li:nth-of-type(1)::before {
+    content: " .";
+    color: #3b5998;
+    font-size: 30px;
+}
+footer article ul li:nth-of-type(2)::before {
+    content: " .";
+    color: #fcaf45;
+    font-size: 30px;
+}
+footer article ul li:nth-of-type(3)::before {
+    content: " .";
+    color: #55acee;
+    font-size: 30px;
+}
+footer article ul li:nth-of-type(4)::before {
+    content: " .";
+    color: #c4302b;
+    font-size: 30px;
+}
